@@ -9,3 +9,4 @@ echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 export PATH=$GITPOD_REPO_ROOT/local/python/bin:$GITPOD_REPO_ROOT/local/wabt:$PATH
 export PYTHONPATH=$GITPOD_REPO_ROOT/local/python
 export PS1="\n\[\e[32m\][\$GITPOD_GIT_USER_NAME]@gitpod.io \[\e[33m\]\w\[\e[0m\]\n\$ "
+export VALGRIND_LIB="/workspace/202211-tc3048-wasm-workspace/local/wabt"
